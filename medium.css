@@ -1,0 +1,254 @@
+@media (max-width: 991px) {
+    .navbar {
+        min-height: 72px;
+    }
+
+    .navbar-collapse {
+        background: #fff;
+        left: 0;
+        padding: 10px 24px 20px;
+        position: absolute;
+        right: 0;
+        top: 100%;
+    }
+
+    .navbar-nav {
+        align-items: stretch !important;
+        gap: 2px;
+    }
+
+    .navbar-nav .btn {
+        margin-top: 8px;
+    }
+
+    .hero .carousel-item {
+        min-height: 560px;
+    }
+
+    .hero-text {
+        padding-bottom: 110px;
+        padding-top: 120px;
+    }
+
+    .way {
+        padding: 14px;
+    }
+
+    .about-main {
+        height: 390px;
+    }
+
+    .person-pic {
+        height: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about .row {
+        --bs-gutter-x: 1.5rem;
+    }
+
+    .top .container {
+        justify-content: center !important;
+    }
+
+    .top-links {
+        display: none;
+    }
+
+    .hero .carousel-item {
+        min-height: 535px;
+    }
+
+    .hero-bg {
+        background-position: 58% center;
+    }
+
+    .hero-bg::after {
+        background: linear-gradient(90deg, rgba(17, 43, 31, .88), rgba(17, 43, 31, .58));
+    }
+
+    .hero-text {
+        padding: 115px 48px 100px;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.7rem, 11vw, 4rem);
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        height: 37px;
+        margin: auto 7px;
+        width: 37px;
+    }
+
+    .way {
+        padding: 18px 5px;
+    }
+
+    .way + .way {
+        border-left: 0;
+        border-top: 1px solid #e1e6de;
+    }
+
+    .pad {
+        padding: 68px 0;
+    }
+
+    .about-pics {
+        max-width: 470px;
+        padding-left: 15px;
+    }
+
+    .about-main {
+        height: 350px;
+    }
+
+    .about-note {
+        left: 0;
+    }
+
+    .title-row {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 27px;
+    }
+
+    .cause-pic {
+        height: 220px;
+    }
+
+    .impact {
+        padding: 62px 0;
+    }
+
+    .event {
+        min-height: 205px;
+    }
+
+    .event > img {
+        min-height: 205px;
+        width: 35%;
+    }
+
+    .event-info {
+        padding: 20px 15px;
+    }
+
+    .person-pic {
+        height: 230px;
+    }
+
+    .story-pic {
+        height: 200px;
+    }
+
+    .foot {
+        padding-top: 50px;
+    }
+
+    .copy {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top {
+        font-size: 11px;
+    }
+
+    .hero .carousel-item {
+        min-height: 490px;
+    }
+
+    .hero-text {
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-top: 100px;
+    }
+
+    .hero h1 {
+        font-size: 2.7rem;
+    }
+
+    .hero-text p {
+        max-width: 300px;
+    }
+
+    .way {
+        gap: 13px;
+    }
+
+    .way-icon {
+        flex-basis: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .about-main {
+        height: 300px;
+    }
+
+    .about-note {
+        padding: 12px 14px;
+    }
+
+    .about-note strong {
+        font-size: 21px;
+    }
+
+    .event {
+        display: block;
+    }
+
+    .event > img {
+        height: 180px;
+        min-height: 0;
+        width: 100%;
+    }
+
+    .date {
+        height: 51px;
+        left: 12px;
+        top: 12px;
+        width: 48px;
+    }
+
+    .event-info {
+        padding: 18px;
+    }
+
+    .person-pic {
+        height: 190px;
+    }
+
+    .person h3 {
+        font-size: 15px;
+    }
+
+    .person p {
+        font-size: 11px;
+    }
+
+    .story-info {
+        padding: 16px;
+    }
+
+    .copy {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .up {
+        bottom: 13px;
+        height: 38px;
+        right: 13px;
+        width: 38px;
+    }
+}
